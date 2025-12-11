@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D965C8DA3A16756E5D0BD2 /* Pods_ArcaneKeeper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CAE854E98CD29B83A9E2D47 /* Pods_ArcaneKeeper.framework */; };
+		723264582EEAEC4900809AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723264562EEAEC4900809AB2 /* Assets.xcassets */; };
+		723264592EEAEC4900809AB2 /* ArcaneKeeperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723264552EEAEC4900809AB2 /* ArcaneKeeperApp.swift */; };
+		723264642EEAEC7300809AB2 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232645C2EEAEC7300809AB2 /* Color+Extensions.swift */; };
+		723264652EEAEC7300809AB2 /* AKHomeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232645F2EEAEC7300809AB2 /* AKHomeWebView.swift */; };
+		723264662EEAEC7300809AB2 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232645B2EEAEC7300809AB2 /* View+Extensions.swift */; };
+		723264672EEAEC7300809AB2 /* ShapeStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232645D2EEAEC7300809AB2 /* ShapeStyle+Extensions.swift */; };
+		723264682EEAEC7300809AB2 /* AKLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723264612EEAEC7300809AB2 /* AKLaunchView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		389D0BF7AC5DEE07B98F1B21 /* Pods-ArcaneKeeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcaneKeeper.debug.xcconfig"; path = "Target Support Files/Pods-ArcaneKeeper/Pods-ArcaneKeeper.debug.xcconfig"; sourceTree = "<group>"; };
+		6381395909FFF2B38C67C781 /* Pods-ArcaneKeeper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcaneKeeper.release.xcconfig"; path = "Target Support Files/Pods-ArcaneKeeper/Pods-ArcaneKeeper.release.xcconfig"; sourceTree = "<group>"; };
+		6CAE854E98CD29B83A9E2D47 /* Pods_ArcaneKeeper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcaneKeeper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		723264462EEAEC2600809AB2 /* ArcaneKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcaneKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		723264552EEAEC4900809AB2 /* ArcaneKeeperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcaneKeeperApp.swift; sourceTree = "<group>"; };
+		723264562EEAEC4900809AB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7232645B2EEAEC7300809AB2 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		7232645C2EEAEC7300809AB2 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		7232645D2EEAEC7300809AB2 /* ShapeStyle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Extensions.swift"; sourceTree = "<group>"; };
+		7232645F2EEAEC7300809AB2 /* AKHomeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKHomeWebView.swift; sourceTree = "<group>"; };
+		723264612EEAEC7300809AB2 /* AKLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKLaunchView.swift; sourceTree = "<group>"; };
+		723264692EEAECC800809AB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		723264432EEAEC2600809AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D965C8DA3A16756E5D0BD2 /* Pods_ArcaneKeeper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6396ADB8DC1CF4BA64873E33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CAE854E98CD29B83A9E2D47 /* Pods_ArcaneKeeper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7232643D2EEAEC2600809AB2 = {
+			isa = PBXGroup;
+			children = (
+				723264572EEAEC4900809AB2 /* ArcaneKeeper */,
+				723264472EEAEC2600809AB2 /* Products */,
+				8BCF30C9F7D22E6503825B33 /* Pods */,
+				6396ADB8DC1CF4BA64873E33 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		723264472EEAEC2600809AB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				723264462EEAEC2600809AB2 /* ArcaneKeeper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		723264572EEAEC4900809AB2 /* ArcaneKeeper */ = {
+			isa = PBXGroup;
+			children = (
+				723264692EEAECC800809AB2 /* Info.plist */,
+				7232645E2EEAEC7300809AB2 /* Extensions */,
+				723264632EEAEC7300809AB2 /* Screens */,
+				7232645A2EEAEC4C00809AB2 /* App */,
+				723264562EEAEC4900809AB2 /* Assets.xcassets */,
+			);
+			path = ArcaneKeeper;
+			sourceTree = "<group>";
+		};
+		7232645A2EEAEC4C00809AB2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				723264552EEAEC4900809AB2 /* ArcaneKeeperApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7232645E2EEAEC7300809AB2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7232645B2EEAEC7300809AB2 /* View+Extensions.swift */,
+				7232645C2EEAEC7300809AB2 /* Color+Extensions.swift */,
+				7232645D2EEAEC7300809AB2 /* ShapeStyle+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		723264602EEAEC7300809AB2 /* HomeWebScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7232645F2EEAEC7300809AB2 /* AKHomeWebView.swift */,
+			);
+			path = HomeWebScreen;
+			sourceTree = "<group>";
+		};
+		723264622EEAEC7300809AB2 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				723264612EEAEC7300809AB2 /* AKLaunchView.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		723264632EEAEC7300809AB2 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				723264602EEAEC7300809AB2 /* HomeWebScreen */,
+				723264622EEAEC7300809AB2 /* LaunchScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8BCF30C9F7D22E6503825B33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				389D0BF7AC5DEE07B98F1B21 /* Pods-ArcaneKeeper.debug.xcconfig */,
+				6381395909FFF2B38C67C781 /* Pods-ArcaneKeeper.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		723264452EEAEC2600809AB2 /* ArcaneKeeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 723264522EEAEC2700809AB2 /* Build configuration list for PBXNativeTarget "ArcaneKeeper" */;
+			buildPhases = (
+				BD31EE01736550C137D954AC /* [CP] Check Pods Manifest.lock */,
+				723264422EEAEC2600809AB2 /* Sources */,
+				723264432EEAEC2600809AB2 /* Frameworks */,
+				723264442EEAEC2600809AB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcaneKeeper;
+			productName = ArcaneKeeper;
+			productReference = 723264462EEAEC2600809AB2 /* ArcaneKeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7232643E2EEAEC2600809AB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					723264452EEAEC2600809AB2 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 723264412EEAEC2600809AB2 /* Build configuration list for PBXProject "ArcaneKeeper" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7232643D2EEAEC2600809AB2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 55;
+			productRefGroup = 723264472EEAEC2600809AB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				723264452EEAEC2600809AB2 /* ArcaneKeeper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		723264442EEAEC2600809AB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723264582EEAEC4900809AB2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD31EE01736550C137D954AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArcaneKeeper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		723264422EEAEC2600809AB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723264592EEAEC4900809AB2 /* ArcaneKeeperApp.swift in Sources */,
+				723264642EEAEC7300809AB2 /* Color+Extensions.swift in Sources */,
+				723264652EEAEC7300809AB2 /* AKHomeWebView.swift in Sources */,
+				723264662EEAEC7300809AB2 /* View+Extensions.swift in Sources */,
+				723264672EEAEC7300809AB2 /* ShapeStyle+Extensions.swift in Sources */,
+				723264682EEAEC7300809AB2 /* AKLaunchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		723264502EEAEC2700809AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		723264512EEAEC2700809AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		723264532EEAEC2700809AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 389D0BF7AC5DEE07B98F1B21 /* Pods-ArcaneKeeper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArcaneKeeper/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Arcane Keeper";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kudryavtsevaproj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		723264542EEAEC2700809AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6381395909FFF2B38C67C781 /* Pods-ArcaneKeeper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArcaneKeeper/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Arcane Keeper";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kudryavtsevaproj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		723264412EEAEC2600809AB2 /* Build configuration list for PBXProject "ArcaneKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723264502EEAEC2700809AB2 /* Debug */,
+				723264512EEAEC2700809AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		723264522EEAEC2700809AB2 /* Build configuration list for PBXNativeTarget "ArcaneKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723264532EEAEC2700809AB2 /* Debug */,
+				723264542EEAEC2700809AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7232643E2EEAEC2600809AB2 /* Project object */;
+}
